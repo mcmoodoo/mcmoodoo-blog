@@ -1,0 +1,2 @@
+Eigen Layer allows new systems to bootstrap security using Ethereum Validators. So as to restake the staked eth to secure additional systems. Most of the content in this post will come from distilling the Eigen Layer white paper - the original one. That way it would clarify a lot of things for me, readers, potential employers, future investors, and fellow cofounders!
+I love this journey and I will make it work.
