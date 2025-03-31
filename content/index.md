@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to McMoodoo Blog
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Thoughts, deep dives, and experiments at the intersection of Gen AI, modular blockchains, and real-world curiosity. I write to learn, clarify, and share — sometimes with diagrams, code, or a spark of obsession.
