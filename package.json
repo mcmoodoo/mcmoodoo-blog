@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "mcmoodoo-blog",
+  "description": "🌱 Personal blog and digital garden",
   "private": true,
-  "version": "4.5.0",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Rashid McMoodoo <rashid@mcmoodoo.com>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://mcmoodoo.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/mcmoodoo/mcmoodoo-blog.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -28,8 +28,7 @@
     "ssg",
     "digital-garden",
     "markdown",
-    "blog",
-    "quartz"
+    "blog"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
