@@ -2,22 +2,20 @@
 title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
 description: "Discover GenLayer's Intelligent Contracts, an evolution beyond smart contracts. Leverage LLMs, real-time data retrieval, and native web connectivity for more adaptive, stateful, and intelligent blockchain applications."
 keywords: ["GenLayer", "Intelligent Contracts", "Smart Contracts", "Blockchain", "LLMs", "Web3", "AI", "Ethereum", "Optimistic Democracy"]
-author: "GenLayer"
-url: "https://www.mcmoodoo.com/blog/genlayer-intelligent-contracts"
-canonicalUrl: "https://www.mcmoodoo.com/blog/genlayer-intelligent-contracts"
+author: "Rashid McMoodoo"
+url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
+canonicalUrl: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
 twitter:
   card: "summary_large_image"
   title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
   description: "Unleash the power of Intelligent Contracts with LLMs, web connectivity, and enhanced statefulness."
-  site: "@GenLayer"
+  site: "@mcmoodoo"
 openGraph:
   title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
   description: "Explore how Intelligent Contracts surpass traditional smart contracts by enabling natural language processing, real-time web data retrieval, and more."
-  url: "https://www.mcmoodoo.com/blog/genlayer-intelligent-contracts"
+  url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
   type: "article"
 ---
-
-import Something from './comp1.tsx';
 
 Conventional smart contracts deployed on traditional blockchains are forced to operate in a restricted, rigid, isolated, and deterministic way. It's great for security but very limiting.
 
