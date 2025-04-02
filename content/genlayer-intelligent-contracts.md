@@ -1,69 +1,50 @@
 ---
 title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
 description: "Discover GenLayer's Intelligent Contracts, an evolution beyond smart contracts. Leverage LLMs, real-time data retrieval, and native web connectivity for more adaptive, stateful, and intelligent blockchain applications."
-keywords: ["GenLayer", "Intelligent Contracts", "Smart Contracts", "Blockchain", "LLMs", "Web3", "AI", "Ethereum", "Optimistic Democracy"]
+keywords:
+  - GenLayer
+  - Intelligent Contracts
+  - Smart Contracts
+  - Blockchain
+  - LLMs
+  - Web3
+  - AI
+  - Ethereum
+  - Optimistic Democracy
 author: "Rashid McMoodoo"
 url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
-canonicalUrl: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
-twitter:
-  card: "summary_large_image"
-  title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
-  description: "Unleash the power of Intelligent Contracts with LLMs, web connectivity, and enhanced statefulness."
-  site: "@mcmoodoo"
-openGraph:
-  title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
-  description: "Explore how Intelligent Contracts surpass traditional smart contracts by enabling natural language processing, real-time web data retrieval, and more."
-  url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
-  type: "article"
+canonical_url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
+
+# Twitter metadata (flattened for compatibility)
+twitter_card: "summary_large_image"
+twitter_title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
+twitter_description: "Unleash the power of Intelligent Contracts with LLMs, web connectivity, and enhanced statefulness."
+twitter_site: "@mcmoodoo"
+
+# Open Graph metadata (also flattened)
+og_title: "GenLayer's Intelligent Contracts – The Cognitive Evolution of Smart Contracts"
+og_description: "Explore how Intelligent Contracts surpass traditional smart contracts by enabling natural language processing, real-time web data retrieval, and more."
+og_url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
+og_type: "article"
 ---
 
 Conventional smart contracts deployed on traditional blockchains are forced to operate in a restricted, rigid, isolated, and deterministic way. It's great for security but very limiting.
 
 What if we could empower them to access the web, understand natural language, crunch unstructured data, and make subjective decisions all by themselves? These "super-contract" abilities make them so smart, that we could rightfully call them *Intelligent*.
 
-<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .label { font: 14px sans-serif; fill: #333; text-anchor: middle; }
-    .icon-label { font: bold 16px sans-serif; fill: #000; text-anchor: middle; }
-    .tentacle { stroke: #4a90e2; stroke-width: 3; fill: none; }
-  </style>
+```mermaid
+graph TD
+    web((🌐 Web Access))
+    decision((⚖️ Subjective Decision))
+    brain((🧠 Intelligent Contracts))
+    language((🗣 Natural Language))
+    data((🧾 Unstructured Data))
 
-  <!-- Brain (center) -->
-  <ellipse cx="400" cy="200" rx="60" ry="40" fill="#f5b3d9" stroke="#d14c8c" stroke-width="2"/>
-  <text x="400" y="205" class="icon-label">🧠</text>
-  <text x="400" y="250" class="label">Intelligent Contract</text>
-
-  <!-- Tentacles connecting from the edge of the ellipse (offsets from center) -->
-  <!-- Top Left -->
-  <path d="M370,170 C340,140 300,130 250,100" class="tentacle"/>
-  <!-- Middle Left -->
-  <path d="M340,200 C310,200 270,200 220,200" class="tentacle"/>
-  <!-- Bottom Left -->
-  <path d="M370,230 C340,260 300,270 250,300" class="tentacle"/>
-  <!-- Top Right -->
-  <path d="M430,170 C460,140 500,130 550,100" class="tentacle"/>
-
-  <!-- Tentacle Icons and Labels -->
-  <!-- Web Access -->
-  <circle cx="250" cy="100" r="25" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
-  <text x="250" y="105" class="icon-label">🌐</text>
-  <text x="250" y="135" class="label">Web Access</text>
-
-  <!-- Natural Language -->
-  <circle cx="220" cy="200" r="25" fill="#fff3e0" stroke="#fb8c00" stroke-width="2"/>
-  <text x="220" y="205" class="icon-label">🗣</text>
-  <text x="220" y="235" class="label">Natural Language</text>
-
-  <!-- Unstructured Data -->
-  <circle cx="250" cy="300" r="25" fill="#ede7f6" stroke="#7e57c2" stroke-width="2"/>
-  <text x="250" y="305" class="icon-label">🧾</text>
-  <text x="250" y="335" class="label">Unstructured Data</text>
-
-  <!-- Subjective Decision -->
-  <circle cx="550" cy="100" r="25" fill="#e8f5e9" stroke="#43a047" stroke-width="2"/>
-  <text x="550" y="105" class="icon-label">⚖️</text>
-  <text x="550" y="135" class="label">Subjective Decision</text>
-</svg>
+    web --> brain
+    decision --> brain
+    brain --> language
+    brain --> data
+```
 
 ## Beyond Smart Contracts: The Rise of Intelligent Contracts
 
