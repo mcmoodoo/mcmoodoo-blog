@@ -40,8 +40,8 @@ graph TD
     language((🗣 Natural Language))
     data((🧾 Unstructured Data))
 
-    web --> brain
-    decision --> brain
+    brain --> web
+    brain --> decision
     brain --> language
     brain --> data
 ```
@@ -51,7 +51,7 @@ graph TD
 <a href="https://docs.genlayer.com/developers/intelligent-contracts/introduction" target="_blank" rel="noopener noreferrer">GenLayer's Intelligent Contracts</a> are a natural next step in the evolution of blockchains. Unlike Smart Contracts which only speak code and require precise programming for exact rules and conditions, Intelligent Contracts leverage LLMs for real-time data retrieval and natural language processing. To summarize, Intelligent Contracts offer:
 
 ```mermaid
-graph TD
+graph LR 
     A[Intelligent Contracts] --> B[🗣️ Natural Language Fluency]
     A --> C[🌐 Native Web Connection]
     A --> D[🧠 Stateful Execution]
