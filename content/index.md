@@ -33,7 +33,7 @@ I’m a **versatile full-stack engineer and technical writer** with a strong Web
 
 ---
 
-## 🛠️ What I Bring to the Table
+## 🛠️ A few highlights
 
 - **Led API docs** for 40+ APIs at **Palo Alto Networks**, overhauling the developer experience with a slick new UI and a docs-as-code workflow.  
 - **[EthGlobal 2024 Prize Winner](https://x.com/mcmoodoo/status/1862729690538287298)** – built *CollaSwitch*, an automated collateral swapper.  
@@ -43,7 +43,7 @@ I’m a **versatile full-stack engineer and technical writer** with a strong Web
 
 ---
 
-## 📚 What I Write (on My Own Time)
+## 📚 The brave survivors of my self-judgment
 
 I often find myself diving deep into the technical rabbit holes that fascinate me. Here are a few favorites:
 
