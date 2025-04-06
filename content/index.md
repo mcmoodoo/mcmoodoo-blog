@@ -43,7 +43,7 @@ I’m a **versatile full-stack engineer and technical writer** with a strong Web
 
 ---
 
-## 📚 The brave survivors of my self-judgment
+## 📚 The brave survivors of my judgment
 
 I often find myself diving deep into the technical rabbit holes that fascinate me. Here are a few favorites:
 
