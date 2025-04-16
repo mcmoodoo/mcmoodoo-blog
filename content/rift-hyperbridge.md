@@ -29,24 +29,23 @@ og_url: "https://www.blog.mcmoodoo.com/rift-hyperbridge"
 og_type: "article"
 ---
 
-For over a decade since Ethereum launched, there’s been no trustless way to move assets between top blockchains.
+For over a decade since Ethereum launched, there’s been no trustless way to move assets between top blockchains (i.e. Bitcoin ⇄ Ethereum).
 
-Like most, I defaulted to CEXes—but they’re a stopgap, centralizing what crypto set out to decentralize. So I kept asking: why hasn’t this been solved?
+Like most, I defaulted to CEXes—but they’re a stopgap, centralizing what crypto set out to decentralize. So I kept asking: *why hasn’t this been solved?*
 
-The bridge connecting two giant continents was still missing—and we were left trusting centralized cargo ships treading dangerous waters across the inter-crypto void. Funds in transfer felt like they were at risk of never making it, or worse, being captured by Somalian pirates. 🚢🏴‍☠️
+The bridge connecting two giant continents was still missing—and we were left 1) trusting centralized cargo ships treading dangerous waters across the inter-crypto void or 2) paddling it yourself through sketchy relay harbors. Funds in transfer felt like they were at risk of never making it, or worse, being captured by Somalian pirates. 🚢🏴‍☠️
 
 ## A Decade-Old Problem Meets a Promising New Solution
 
-Rift Hyperbridge is the first trustless exchange between Bitcoin and Ethereum—a pioneering step forward in decentralized infrastructure. It uses zero-knowledge (zk) proofs to verify Bitcoin’s state directly on Ethereum, enabling secure, peer-to-peer cross-chain trading without intermediaries.
+<a href="https://rift.exchange" target="_blank" rel="noopener noreferrer">Rift Hyperbridge</a> is the first trustless exchange between Bitcoin and Ethereum—a pioneering step forward in decentralized infrastructure. It uses zero-knowledge (zk) proofs to verify Bitcoin’s state directly on Ethereum, enabling secure, peer-to-peer cross-chain trading without intermediaries.
 
-When I first came across Rift, I immediately reached out to the team over Telegram—hoping to move BTC from Bitcoin mainnet to an EVM chain (any L1 or rollup) and receive WBTC, USDT, WETH, or native ETH.
+When I first came across Rift, I immediately reached out to the team over <a href="https://t.me/riftdex" target="_blank" rel="noopener noreferrer">Telegram</a>—hoping to move BTC from Bitcoin mainnet to an EVM chain (any L1 or rollup) and receive WBTC, USDT, WETH, or native ETH.
 
 Their reply? “Not ready yet.”
 
 Sure, I was a bit disappointed. But this wasn’t a dealbreaker. It was validation that they’re tackling one of crypto’s most overdue infrastructure challenges—and building it the right way.
 
-## What Makes Rift Different
-
+## 🏴‍☠️ Pirate-Proof Passage: Why Rift Is the Bridge Worth Watching
 Most bridges today are either trusted or semi-trusted, relying on multisigs, validators, or custodial relayers. Rift goes a level deeper—fully trustless, cryptographically verifiable, and built from the ground up to eliminate reliance on third parties.
 
 **Core features include:**
