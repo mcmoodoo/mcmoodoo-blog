@@ -28,7 +28,7 @@ og_url: "https://www.blog.mcmoodoo.com/genlayer-intelligent-contracts"
 og_type: "article"
 ---
 
-Conventional smart contracts deployed on traditional blockchains are forced to operate in a restricted, rigid, isolated, and deterministic way. It's great for security but very limiting.
+Conventional smart contracts deployed on traditional blockchains are forced to operate in a restricted, rigid, isolated, and deterministic way. Excellent for security but highly limiting.
 
 What if we could empower them to access the web, understand natural language, crunch unstructured data, and make subjective decisions all by themselves? These "super-contract" abilities make them so smart, that we could rightfully call them *Intelligent*.
 
@@ -48,7 +48,11 @@ graph TD
 
 ## Beyond Smart Contracts: The Rise of Intelligent Contracts
 
-<a href="https://docs.genlayer.com/developers/intelligent-contracts/introduction" target="_blank" rel="noopener noreferrer">GenLayer's Intelligent Contracts</a> are a natural next step in the evolution of blockchains. Unlike Smart Contracts which only speak code and require precise programming for exact rules and conditions, Intelligent Contracts leverage LLMs for real-time data retrieval and natural language processing. To summarize, Intelligent Contracts offer:
+<a href="https://docs.genlayer.com/developers/intelligent-contracts/introduction" target="_blank" rel="noopener noreferrer">GenLayer's Intelligent Contracts</a> are a natural next step in the evolution of blockchains. Unlike Smart Contracts which only speak code and require precise programming for exact rules and conditions, Intelligent Contracts leverage LLMs for real-time data retrieval and natural language processing.
+
+When I first encountered the concept, I was blown away—it was hard to believe that anyone could bridge the deterministic nature of blockchains with the inherently non-deterministic behavior of LLMs.
+
+To summarize, Intelligent Contracts offer:
 
 ```mermaid
 graph LR 
@@ -65,7 +69,7 @@ graph LR
 5. **Familiar and powerful tools of Python's ecosystem**
 
 
-Intelligent contracts can fetch live data (e.g. prices, weather updates, product details) directly from web APIs without intermediaries, making subjective decisions while enhancing adaptability and context awareness. They can also search and retrieve real-time information, like breaking news or sports scores, enabling dapps to make decisions on insurance payouts and game outcomes.
+Intelligent contracts can fetch live data (e.g. prices 📈, weather updates 🌦️, product details 🛒) directly from web APIs without intermediaries, making subjective decisions while enhancing adaptability and context awareness. They can also search and retrieve real-time information, such as breaking news or sports scores, allowing dapps to decide on insurance payouts and game results.
 
 Learn about <a href="https://docs.genlayer.com/developers/intelligent-contracts/introduction" target="_blank" rel="noopener noreferrer">Intelligent Contracts</a> or try deploying your own in <a href="https://studio.genlayer.com" target="_blank" rel="noopener noreferrer">GenLayer Studio</a>.
 
@@ -75,11 +79,10 @@ Learn about <a href="https://docs.genlayer.com/developers/intelligent-contracts/
 
 In Ethereum and other L1 chains, validators only need to agree on transaction ordering, because re-executing a transaction will always yield the same result. In GenLayer, however, the consensus operates on the transaction level because each transaction can produce a different response. Thus, instead of agreeing on the order of transactions, the GenLayer validators have to first agree on the non-deterministic LLM responses and web search results.
 
-But how exactly do the LLM-powered validators agree on the transaction output?
+I couldn't wrap my head around it at first — how do LLM-powered validators even agree on transaction outputs when the LLM responses and web results aren’t deterministic?
 
 ### Equivalence Principle
-
-Each transaction consists of deterministic and non-deterministic parts. The former could be easily re-executed by each validator to verify valid state change. But the latter will yield different results. That's where validators employ the Equivalence Principle to evaluate whether the leader-proposed output is valid.
+Turns out, each transaction consists of deterministic and non-deterministic parts. The former could be easily re-executed by each validator to verify valid state change. But the latter will yield different results. That's where validators employ the Equivalence Principle to evaluate whether the leader-proposed output is valid.
 
 ### Optimistic Validation
 
