@@ -1,3 +1,3 @@
-# McMoodoo Blog
+## McMoodoo Blog
 
-This is the source code for my personal blog and digital garden where I publish my notes and thoughts.
+This repo holds the source code for my [blog / digital garden](https://blog.mcmoodoo.com) - a haven for my thoughts and notes!
