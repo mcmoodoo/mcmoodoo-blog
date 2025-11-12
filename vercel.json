@@ -1,3 +1,9 @@
 {
-  "cleanUrls": true
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://mcmoodoo.com/$1",
+      "permanent": true
+    }
+  ]
 }
